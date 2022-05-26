@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, slash_for_doc_comments, use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
 
@@ -72,6 +72,41 @@ class MyApp extends StatelessWidget {
 //               style: TextStyle(fontSize: 30.0),
 //             ),
 //             Text(" I am Jack "),
+//           ],
+//         ),
+//       ],
+//     )));
+//   }
+// }
+
+// class HomeContent extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Center(
+//         child: Container(
+//             child: Column(
+//       mainAxisSize: MainAxisSize.max,
+//       children: [
+//         Padding(
+//           padding: EdgeInsets.all(20.0),
+//           child: Text('Row 和 Column演示'),
+//         ),
+//         Row(
+//           children: [
+//             Text('这是第一张图片'),
+//             Image.asset('images/2.0x/p1.jpeg', width: 100.0, height: 50.0),
+//           ],
+//         ),
+//         Row(
+//           children: [
+//             Text('这是第二张图片'),
+//             Image.asset('images/2.0x/p2.jpeg', width: 100.0, height: 50.0),
+//           ],
+//         ),
+//         Row(
+//           children: [
+//             Text('这是第三张图片'),
+//             Image.asset('images/2.0x/p3.jpeg', width: 100.0, height: 50.0),
 //           ],
 //         ),
 //       ],
@@ -197,7 +232,9 @@ class HomeContent extends StatelessWidget {
         alignment: Alignment.center,
         children: <Widget>[
           Container(
-            child: Text("Hello world", ),
+            child: Text(
+              "Hello world",
+            ),
             color: Colors.red,
           ),
           Positioned(
